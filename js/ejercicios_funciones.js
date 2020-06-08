@@ -48,3 +48,27 @@
 
 // let entrada = prompt("Ingresar una cadena de texto")
 // analisisCadena(entrada)
+
+//EJERCICIO 3
+
+function perimetro(ancho,altura){
+    let resultado = 2*(altura + ancho)
+    document.write("El perimetro es " + resultado +"<br>")
+    return
+}
+
+let ancho = parseInt(prompt("Ingrese el ancho del rectangulo"));
+let altura = parseInt(prompt("Ingrese la altura del rectangulo"));
+perimetro(ancho,altura)
+
+//EJERCICIO 4
+
+function tablamulti(numerotabla){
+    for(i=1; i<11; i++){
+    document.write(numerotabla +" x " + i + " = " + (numerotabla*i) + "<br>")
+    }
+    return
+}
+
+let numeroingresado = parseInt(prompt("Ingrese un numero"));
+tablamulti(numeroingresado)

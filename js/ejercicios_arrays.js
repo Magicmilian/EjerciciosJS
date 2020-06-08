@@ -30,13 +30,13 @@
 
 // document.write("La longitud del arreglo es " + ciudades.length + "<br>")
 
-// document.write("El item de la posicion 1 es " + ciudades[1] + "<br>")
-// document.write("El item de la posicion 3 es " + ciudades[3] + "<br>")
+// document.write("El item primero es " + ciudades[0] + "<br>")
+// document.write("El item tercero es " + ciudades[2] + "<br>")
 // document.write("El item de la ultima posicion es " + ciudades[ciudades.length - 1] + "<br>")
 // ciudades.push("Paris")
 // document.write("El item de la posicion 2 es " + ciudades[2] + "<br>")
 // document.write("Ahora reemplazamos el item de la segunda posicion por 'Barcelona' <br>")
-// ciudades[2] = "Barcelona"
+// ciudades[1] = "Barcelona"
 // for (i = 0; i < ciudades.length; i++) {
 //     document.write(ciudades[i] + "<br>")
 // }
